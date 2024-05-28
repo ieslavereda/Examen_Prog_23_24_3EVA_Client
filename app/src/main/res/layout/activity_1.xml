@@ -80,7 +80,8 @@
                 android:id="@+id/sCantidad"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textAlignment="textEnd" />
         </LinearLayout>
 
         <LinearLayout
@@ -203,6 +204,7 @@
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginTop="16dp"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

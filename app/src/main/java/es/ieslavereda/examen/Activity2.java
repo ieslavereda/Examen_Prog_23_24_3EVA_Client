@@ -47,7 +47,7 @@ public class Activity2 extends AppCompatActivity {
         etCantidad.setText(cantidad+"");
 
         ibCart.setOnClickListener(v->{
-            if(Integer.parseInt(etCantidad.getText().toString())==0)
+            if(etCantidad.getText().toString().isEmpty() || Integer.parseInt(etCantidad.getText().toString())==0)
                 Toast.makeText(getApplicationContext(),"No se puede dejar a 0 la cantidad",Toast.LENGTH_LONG).show();
             else{
                 Intent intent = new Intent();
